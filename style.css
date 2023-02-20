@@ -1,0 +1,10 @@
+body{
+    animation: animacion 5s infinite;
+}
+.heading{
+    background-color: rgb(111, 207, 245);
+}
+@keyframes animacion{
+    from{ background:radial-gradient(#21a7b1, #5dd693)}
+    to{ background:radial-gradient(#5dd693, #21a7b1)}
+}
